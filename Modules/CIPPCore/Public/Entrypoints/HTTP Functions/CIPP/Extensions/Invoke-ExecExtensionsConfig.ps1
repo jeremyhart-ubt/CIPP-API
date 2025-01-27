@@ -36,7 +36,8 @@ Function Invoke-ExecExtensionsConfig {
                 'eu.ninjarmm.com',
                 'oc.ninjarmm.com',
                 'ca.ninjarmm.com',
-                'us2.ninjarmm.com'
+                'us2.ninjarmm.com',
+                'ubt.rmmservice.com.au'
             )
             $SetNinjaHostname = $Body.NinjaOne.Instance -replace '/ws', '' -replace 'https://', ''
             if ($AllowedNinjaHostnames -notcontains $SetNinjaHostname) {

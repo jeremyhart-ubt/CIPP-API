@@ -64,7 +64,9 @@ function Invoke-NinjaOneTenantSync {
             'eu.ninjarmm.com',
             'oc.ninjarmm.com',
             'ca.ninjarmm.com',
-            'us2.ninjarmm.com'
+            'us2.ninjarmm.com',
+            'ubt.rmmservice.com.au'
+            
         )
 
         if ($AllowedNinjaHostnames -notcontains $Configuration.Instance) {
